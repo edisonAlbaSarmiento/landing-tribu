@@ -2,36 +2,46 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 100%;
-    height: auto;
+    height: 275px;
     background-color: #ecf0f4;
-    padding: 8px;
+    padding: 48px 0px;
     display: flex;
     justify-content: center;
     text-align: initial;
     
 `
 export const TextTitle = styled.h1`
-    font-size: 36px;
+    font-size: 20px;
     text-transform: uppercase;
 `
 export const IconImage = styled.div`
-    height: 320px;
-    background-image: url(https://imaginamos.com/wp-content/uploads/2017/09/HEADERMC-510x340.png);
+    height: 138px;
+    width: 240px;
+    background-size: 210px;
+    background-image: url(../../../cellphone.png);
     background-repeat: no-repeat;
-    padding: 20px;
+    padding: 70px 0;
     background-origin: content-box;
+    background-position: center;
 `
 export const TextSubTitle = styled.p`
     width: 551px;
 `
-
-export const ContentTitle = styled.div`
-    padding: 87px 60px
+export const Link = styled.a`
+    text-decoration: none;
+ color: black;
+`
+export const ContentTitleRight = styled.div`
+    margin: 16px;
+    text-align: end;
+`
+export const ContentTitleLeft = styled.div`
+    margin: 16px;
+    text-align: inherit;
 `
 
 export const ContentImage = styled.div`
     background-color: #edf1f4;
-    width: 505px;
     margin: 10px;
     text-align: center;
     line-height: 75px;

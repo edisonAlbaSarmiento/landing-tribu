@@ -2,33 +2,62 @@ import React from 'react';
 import { 
   Container,
   TextTitle,
-  ContentTitle, 
+  ContentTitleRight,
+  ContentTitleLeft, 
   ContentImage, 
   TextSubTitle, 
   Button,
-  IconImage 
+  IconImage,
+  Link
 } from './style';
 
 function HeaderInfo() {
   return (
     <Container>
-        <ContentTitle>
+        <ContentTitleRight>
             <TextTitle>
                 Realizado en React js
             </TextTitle>
             <TextSubTitle>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </TextSubTitle>
-            <Button>
-              <a  href='https://es.reactjs.org/' style={{ textDecoration: 'none', color:' black'}}>
-                Ir a la documentacion de React
-              </a>
-            </Button>
-        </ContentTitle>
+            <TextTitle>
+                Realizado en React js
+            </TextTitle>
+            <TextSubTitle>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </TextSubTitle>
+            <TextTitle>
+                Realizado en React js
+            </TextTitle>
+            <TextSubTitle>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </TextSubTitle>
+        </ContentTitleRight>
         <ContentImage>
             <IconImage>
             </IconImage>
         </ContentImage>
+        <ContentTitleLeft>
+            <TextTitle>
+                Realizado en React js
+            </TextTitle>
+            <TextSubTitle>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </TextSubTitle>
+            <TextTitle>
+                Realizado en React js
+            </TextTitle>
+            <TextSubTitle>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </TextSubTitle>
+            <TextTitle>
+                Realizado en React js
+            </TextTitle>
+            <TextSubTitle>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </TextSubTitle>
+        </ContentTitleLeft>
       
     </Container>
   );
