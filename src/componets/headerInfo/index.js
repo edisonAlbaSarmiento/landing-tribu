@@ -29,7 +29,6 @@ function HeaderInfo() {
             <IconImage>
             </IconImage>
         </ContentImage>
-      
     </Container>
   );
 }
