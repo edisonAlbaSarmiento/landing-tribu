@@ -14,7 +14,7 @@ function HeaderInfo() {
     <Container>
         <ContentTitleRight>
             <TextTitle>
-                Realizado en React js
+                Realizado en React js example
             </TextTitle>
             <TextSubTitle>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
