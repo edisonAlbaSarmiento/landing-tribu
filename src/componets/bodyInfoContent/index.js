@@ -6,9 +6,7 @@ import {
   ContentTitleLeft, 
   ContentImage, 
   TextSubTitle, 
-  Button,
   IconImage,
-  Link
 } from './style';
 
 function HeaderInfo() {

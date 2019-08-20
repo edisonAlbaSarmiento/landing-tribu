@@ -3,7 +3,8 @@ import {
     Container,
     IconImage
 } from './style'
-export default class componentName extends Component {
+
+export default class index extends Component {
   render() {
     return (
       <Container><IconImage alt="Imaginamos" ></IconImage></Container>

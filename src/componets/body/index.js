@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import HeaderInfo from '../../componets/headerInfo'
-import BodyInfo from '../../componets/bodyInfo'
-import BodyInfoContent from '../../componets/bodyInfoContent'
+import HeaderInfo from '../headerInfo'
+import BodyInfo from '../bodyInfo'
+import BodyInfoContent from '../bodyInfoContent'
 
 
 export default class index extends Component {
