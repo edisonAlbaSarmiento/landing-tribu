@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {
-   Container   
+   Container,
+   Link   
 } from './style'
 
 export default class index extends Component {
@@ -8,7 +9,7 @@ export default class index extends Component {
     return (
       <Container> 
           <div style={{color: 'white'}}>
-              Todos los derechos reservados
+            Realizado por <Link href='https://github.com/edisonAlbaSarmiento'>Edison Alba</Link>
           </div>
           <div style={{
              padding: '0 11px',

@@ -7,4 +7,11 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     padding: 18px;
+    align-items: center;
+    flex-direction: column;
+`
+
+export const Link = styled.a`
+    text-decoration: none;
+    color: black;
 `
