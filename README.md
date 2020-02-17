@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Se realizara la refactorizacion despligue de esta web 
 
+Se modifico los componentes para que sea mas dinamica 
+
 ![Captura de Pantalla 2019-08-20 a la(s) 3 56 10 p  m](https://user-images.githubusercontent.com/31748119/63386346-78126f80-c368-11e9-9782-33dac923d91c.png)
 
 ## Animations
